@@ -41,11 +41,11 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
 export default Vue.extend({
   methods: {
-    copy(text: string): void {
+    copy(text) {
       navigator.clipboard.writeText(text)
       this.$toast.success(`Copied, ${text}`).goAway(1000)
     },
