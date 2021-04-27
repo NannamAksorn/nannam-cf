@@ -55,8 +55,7 @@ export default Vue.extend({
 
 <style lang="scss">
 .contact {
-  justify-content: center;
-  margin-top: -6em;
+  margin: 5em 0;
 }
 .copy {
   color: gold;
