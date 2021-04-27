@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container contact">
     <h1>CONTACT ME</h1>
     <br />
     <div class="contact--grid">
@@ -54,6 +54,10 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
+.contact {
+  justify-content: center;
+  margin-top: -6em;
+}
 .copy {
   color: gold;
   font-size: 18px;

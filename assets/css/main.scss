@@ -32,6 +32,10 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  @media screen and (max-width: 650px) {
+  justify-content: flex-start;
+  }
 }
 
 // =============== Scroll=================
