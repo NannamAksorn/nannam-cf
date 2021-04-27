@@ -145,6 +145,10 @@ export default Vue.extend({
   max-width: 1000px;
 }
 
+.section-skill {
+  overflow: auto;
+}
+
 .pl--icon-group {
   margin-top: 1.2rem;
   display: flex;

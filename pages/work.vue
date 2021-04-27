@@ -42,6 +42,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 95vh;
+  overflow: auto;
 }
 .work--item {
   width: 320px;

@@ -64,9 +64,10 @@ html {
   box-shadow: 6px 6px 12px #040507, -6px -6px 12px #0e1119;
 
   @media screen and (max-width: 650px) {
-    height: 30px;
+    height: 40px;
     justify-content: space-around;
     flex-direction: row;
+    margin-bottom: 1rem;
   }
 }
 .navbar--item {
